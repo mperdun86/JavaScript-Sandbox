@@ -15,3 +15,11 @@ function OffList(Item) {
     }
     ToDoList = NewToDoList;
 }
+
+function ProperOffList(Item){
+    for(var ListItem in ToDoList){
+        if(Item == ToDoList[ListItem]){
+            ToDoList.splice(ListItem, 1);
+        }
+    }
+}
