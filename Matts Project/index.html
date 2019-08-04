@@ -4,17 +4,20 @@
 <!--Body of Site-->
 <html>
 <style>
+    @font-face {
+    font-family: myFirstFont;
+    src: url("BlackDahlia.ttf");
+    }
     body {
         background-image: url('https://d2rormqr1qwzpz.cloudfront.net/photos/2015/06/29/77694-2857922079_d01e6bd668_o.jpg');
         background-size: cover;
     }
 
     .HeaderStyle {
-        color: peru;
-        font-weight: 900;
-        font-style: italic;
-        font-family: fantasy;
+        color:#ebd397;
         text-align: center;
+        font-family:myFirstFont;
+        font-size:55px;
     }
 
     .LinkStyle {
@@ -42,8 +45,11 @@
 
         <a class="LinkColor" class="LinkStyle" href="https://www.google.com"> Google Link </a>
         <ul class="ToDoList">
+            <li> Item 1 </li>
+            <li> Item 2 </li>
 
         </ul>
+       <span style="color:white"> Add Item To List: </span><input  id="item-to-add" type="text"><button id="add-item">OK</button>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="

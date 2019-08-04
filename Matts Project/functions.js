@@ -39,3 +39,50 @@ function FizzBuzzOneNum(MattsNumber) {
     }
 
 }
+
+
+
+function MakeNewList(NewList){
+
+    for (var i = 0; i < NewList.length; i++) {
+        console.log(NewList[i]);
+    }
+
+}
+
+function MetalList(Metal){
+
+    for (var m = 0; m < Metal.length; m++) {
+        console.log(Metal[m]);
+    }
+}
+
+function DisplayLists(array1, array2){
+
+    for (var i = 0; i < array1.length; i++) {
+        console.log(array1[i]);
+    }
+
+    for (var i = 0; i < array2.length; i++) {
+        console.log(array2[i]);
+    }
+    
+}
+
+function MultiArray(Genres){
+
+        for (var i = 0; i < Genres.length; i++) {
+            for (var c=0; c < Genres[i].length; c++){
+                    console.log(Genres[i][c]);
+            }
+
+        }
+
+
+function Chars(Loche){
+
+        for (var i = 0; i < lo
+}
+
+
+}

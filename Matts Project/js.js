@@ -5,7 +5,15 @@ $(function () {
     var num2 = [1,5,7,11,17];
     var numList = [35,72,167,1];
     var MattsAge = [33];
-
+    var Unlucky = [3,6,13,14,17,22,27];
+    var Heros = ["Superman", "Batman", "Spiderman", "Deadpool", "Hiro"];
+    var Metal = ["Slayer", "Pantera", "Metallica", "Black Sabbath", "Avenged Sevenfold"];
+    var Genres = [
+        ["Adventure", "Horror", "Comedy", "Action", "Mystery"],
+        ["Pop", "Rap", "Reggae", "Dubstep", "Metal", "Classical"],
+        ["Cubist", "Avante Gard", "Impressionist", "Realist", "Shit"]
+    ];
+    
 
     
     //Calling Functions
@@ -15,7 +23,18 @@ $(function () {
     FizzBuzz(num2);
     FizzBuzzOneNum(15);
     MakeList(numList);
-
+    MakeNewList(Heros);
+    MetalList(Metal);
+    DisplayLists(Alpha, Metal);
+    MultiArray(Genres);
+    //MakeList2(Unlucky);
+    
+    //This line listens for when someone clicks the OK button, correct definition below. 
+    //Click event listener for the OK button targeting the add-item ID on the button tag
+    $('#add-item').click(function(){
+        //This calls the GetItemToAdd function located in the todo.js file
+        GetItemToAdd();
+    })
 
 
     // Making an Array of Objects
@@ -42,9 +61,12 @@ $(function () {
     }
 
     //Logging Book title to console
-    console.log(Book.Title);
+    //console.log(Book.Title);
 
 
+
+
+    //Looping crazy fun time
 
 
 
