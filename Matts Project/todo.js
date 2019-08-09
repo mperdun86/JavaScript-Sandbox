@@ -24,7 +24,7 @@ function DisplayList(List) {
 
 //Function that gets the text from the textbox whe the OK button is clicked. 
 //This runs when the click listener in the js.js file targeting the OK button runs
-function GetItemToAdd(){
+function GetItemToAdd() {
     //This line uses jQuery to get the value of whats in the text box and then assigns that value to the itemToAdd Variable. 
     var itemToAdd = $('#item-to-add').val();
     //This line calls the AddItem function and passes in the value of itemToAdd
